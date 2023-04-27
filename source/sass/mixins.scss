@@ -4,19 +4,19 @@
   list-style: none;
 }
 
-@mixin nxl {
+@mixin xl-width {
   @media all and (min-width: 1699px) {
     @content;
   }
 }
 
-@mixin nlg {
+@mixin lg-width {
   @media all and (min-width: 1200px) {
     @content;
   }
 }
 
-@mixin nmd {
+@mixin md-width {
   @media all and (min-width: 768px) {
     @content;
   }
